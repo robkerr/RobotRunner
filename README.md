@@ -4,7 +4,7 @@
 
 <p>Robot Runner is an iPhone app written with Swift in XCode that connects to an embedded controller (the Arduino board) using Bluetooth Low Energy (a BLE shield attached to the Arduino).  The architecture of the app is in the diagram below.</p>
 
-<p><img src="/content/images/2015/07/Robot-Runner-iPhone.jpg" alt="" /></p>
+<p><img src="https://github.com/robkerr/RobotRunner/blob/master/images/Robot-Runner-iPhone.jpg" alt="" /></p>
 
 <p>The iPhone app starts and stops the robot, and reads temperature and ambient light intensity sensors on the robot.  It's a good hacking solution since it incorporates many different elements used in mobile connected device applications.</p>
 
