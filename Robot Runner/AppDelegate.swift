@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BLETest
+//  Robot Runner
 //
 //  Created by Rob Kerr on 3/20/15.
 //  Copyright (c) 2015 Mobile Toolworks, LLC. All rights reserved.

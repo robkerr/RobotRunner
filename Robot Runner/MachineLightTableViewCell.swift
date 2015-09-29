@@ -1,6 +1,6 @@
 //
 //  MachineLightTableViewCell.swift
-//  BLETest
+//  Robot Runner
 //
 //  Created by Rob Kerr on 3/28/15.
 //  Copyright (c) 2015 Mobile Toolworks, LLC. All rights reserved.

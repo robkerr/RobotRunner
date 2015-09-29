@@ -1,7 +1,7 @@
 //*************************************************************************************************
 //
 //          File:           MachineViewController.swift
-//          Project:        BTLEDemo
+//          Project:        Robot Runner
 //          Description:    View controller for screen that shows status of a machine
 //
 //          Date:           Created by Rob Kerr on 3/28/15.

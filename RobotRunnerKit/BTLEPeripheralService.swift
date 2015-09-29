@@ -1,7 +1,7 @@
 //*************************************************************************************************
 //
 //          File:           BTLEPeripheralService.swift
-//          Project:        BTLEDemo
+//          Project:        Robot Runner
 //          Description:    Class that manages an active connection with a BTLE peripheral
 //                          This class exists as long as an active connection is being maintained.
 //

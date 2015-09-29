@@ -1,7 +1,7 @@
 //*************************************************************************************************
 //
 //          File:           BTLEDiscoveryService.swift
-//          Project:        BTLEDemo
+//          Project:        Robot Runner
 //          Description:    This class manages the discovery process for BTLE, encapsulating the
 //                          plumbing, peripheral references and queing structures need.
 //
