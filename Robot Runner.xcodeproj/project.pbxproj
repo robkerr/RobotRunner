@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4027ABF1AEC5A640033165E /* RobotRunnerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D4027ABE1AEC5A640033165E /* RobotRunnerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4027AD41AEC5AE90033165E /* RobotStatusStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4027AD31AEC5AE90033165E /* RobotStatusStore.swift */; };
+		D4374AB21AEC2BE4004095BF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4374AB11AEC2BE4004095BF /* InterfaceController.swift */; };
+		D4374AB41AEC2BE4004095BF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4374AB31AEC2BE4004095BF /* NotificationController.swift */; };
+		D4374AB61AEC2BE4004095BF /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4374AB51AEC2BE4004095BF /* GlanceController.swift */; };
+		D4374AB81AEC2BE4004095BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4374AB71AEC2BE4004095BF /* Images.xcassets */; };
+		D4374AC41AEC2BE4004095BF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4374AC21AEC2BE4004095BF /* Interface.storyboard */; };
+		D4374AC61AEC2BE4004095BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4374AC51AEC2BE4004095BF /* Images.xcassets */; };
+		D48F92BE1AEAAECD006DB4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F92BD1AEAAECD006DB4A9 /* AppDelegate.swift */; };
+		D48F92C01AEAAECD006DB4A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F92BF1AEAAECD006DB4A9 /* ViewController.swift */; };
+		D48F92C31AEAAECD006DB4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48F92C11AEAAECD006DB4A9 /* Main.storyboard */; };
+		D48F92C51AEAAECD006DB4A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48F92C41AEAAECD006DB4A9 /* Images.xcassets */; };
+		D48F92C81AEAAECD006DB4A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D48F92C61AEAAECD006DB4A9 /* LaunchScreen.xib */; };
+		D499DF9D1BBA4BF2003D4433 /* Robot Runner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4374AAC1AEC2BE4004095BF /* Robot Runner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D499DFA01BBA4BF2003D4433 /* Robot Runner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D4374ABB1AEC2BE4004095BF /* Robot Runner WatchKit App.app */; };
+		D499DFA31BBA4EF0003D4433 /* RobotRunnerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */; };
+		D499DFA41BBA4EF0003D4433 /* RobotRunnerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4A1EA811AEC60B200C09E4D /* RobotRunnerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */; };
+		D4A1EA831AEC674E00C09E4D /* RobotRunnerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4A1EA8F1AEC6A8000C09E4D /* StoppingRobot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA881AEC6A8000C09E4D /* StoppingRobot1.png */; };
+		D4A1EA901AEC6A8000C09E4D /* StoppingRobot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA891AEC6A8000C09E4D /* StoppingRobot2.png */; };
+		D4A1EA911AEC6A8000C09E4D /* StoppingRobot3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA8A1AEC6A8000C09E4D /* StoppingRobot3.png */; };
+		D4A1EA921AEC6A8000C09E4D /* StoppingRobot4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA8B1AEC6A8000C09E4D /* StoppingRobot4.png */; };
+		D4A1EA931AEC6A8000C09E4D /* StoppingRobot5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA8C1AEC6A8000C09E4D /* StoppingRobot5.png */; };
+		D4A1EA941AEC6A8000C09E4D /* StoppingRobot6.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA8D1AEC6A8000C09E4D /* StoppingRobot6.png */; };
+		D4A1EA951AEC6A8000C09E4D /* StoppingRobot7.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA8E1AEC6A8000C09E4D /* StoppingRobot7.png */; };
+		D4A1EA9D1AEC6A9900C09E4D /* StartingRobot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA961AEC6A9800C09E4D /* StartingRobot1.png */; };
+		D4A1EA9E1AEC6A9900C09E4D /* StartingRobot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA971AEC6A9800C09E4D /* StartingRobot2.png */; };
+		D4A1EA9F1AEC6A9900C09E4D /* StartingRobot3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA981AEC6A9800C09E4D /* StartingRobot3.png */; };
+		D4A1EAA01AEC6A9900C09E4D /* StartingRobot4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA991AEC6A9900C09E4D /* StartingRobot4.png */; };
+		D4A1EAA11AEC6A9900C09E4D /* StartingRobot5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA9A1AEC6A9900C09E4D /* StartingRobot5.png */; };
+		D4A1EAA21AEC6A9900C09E4D /* StartingRobot6.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA9B1AEC6A9900C09E4D /* StartingRobot6.png */; };
+		D4A1EAA31AEC6A9900C09E4D /* StartingRobot7.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EA9C1AEC6A9900C09E4D /* StartingRobot7.png */; };
+		D4A1EAC71AEC6AA700C09E4D /* RunningRobot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA41AEC6AA700C09E4D /* RunningRobot1.png */; };
+		D4A1EAC81AEC6AA700C09E4D /* RunningRobot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA51AEC6AA700C09E4D /* RunningRobot2.png */; };
+		D4A1EAC91AEC6AA700C09E4D /* RunningRobot3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA61AEC6AA700C09E4D /* RunningRobot3.png */; };
+		D4A1EACA1AEC6AA700C09E4D /* RunningRobot4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA71AEC6AA700C09E4D /* RunningRobot4.png */; };
+		D4A1EACB1AEC6AA700C09E4D /* RunningRobot5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA81AEC6AA700C09E4D /* RunningRobot5.png */; };
+		D4A1EACC1AEC6AA700C09E4D /* RunningRobot6.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAA91AEC6AA700C09E4D /* RunningRobot6.png */; };
+		D4A1EACD1AEC6AA700C09E4D /* RunningRobot7.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAA1AEC6AA700C09E4D /* RunningRobot7.png */; };
+		D4A1EACE1AEC6AA700C09E4D /* RunningRobot8.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAB1AEC6AA700C09E4D /* RunningRobot8.png */; };
+		D4A1EACF1AEC6AA700C09E4D /* RunningRobot9.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAC1AEC6AA700C09E4D /* RunningRobot9.png */; };
+		D4A1EAD01AEC6AA700C09E4D /* RunningRobot10.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAD1AEC6AA700C09E4D /* RunningRobot10.png */; };
+		D4A1EAD11AEC6AA700C09E4D /* RunningRobot11.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAE1AEC6AA700C09E4D /* RunningRobot11.png */; };
+		D4A1EAD21AEC6AA700C09E4D /* RunningRobot12.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAAF1AEC6AA700C09E4D /* RunningRobot12.png */; };
+		D4A1EAD31AEC6AA700C09E4D /* RunningRobot13.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB01AEC6AA700C09E4D /* RunningRobot13.png */; };
+		D4A1EAD41AEC6AA700C09E4D /* RunningRobot14.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB11AEC6AA700C09E4D /* RunningRobot14.png */; };
+		D4A1EAD51AEC6AA700C09E4D /* RunningRobot15.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB21AEC6AA700C09E4D /* RunningRobot15.png */; };
+		D4A1EAD61AEC6AA700C09E4D /* RunningRobot16.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB31AEC6AA700C09E4D /* RunningRobot16.png */; };
+		D4A1EAD71AEC6AA700C09E4D /* RunningRobot17.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB41AEC6AA700C09E4D /* RunningRobot17.png */; };
+		D4A1EAD81AEC6AA700C09E4D /* RunningRobot18.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB51AEC6AA700C09E4D /* RunningRobot18.png */; };
+		D4A1EAD91AEC6AA700C09E4D /* RunningRobot19.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB61AEC6AA700C09E4D /* RunningRobot19.png */; };
+		D4A1EADA1AEC6AA700C09E4D /* RunningRobot20.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB71AEC6AA700C09E4D /* RunningRobot20.png */; };
+		D4A1EADB1AEC6AA700C09E4D /* RunningRobot21.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB81AEC6AA700C09E4D /* RunningRobot21.png */; };
+		D4A1EADC1AEC6AA700C09E4D /* RunningRobot22.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAB91AEC6AA700C09E4D /* RunningRobot22.png */; };
+		D4A1EADD1AEC6AA700C09E4D /* RunningRobot23.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABA1AEC6AA700C09E4D /* RunningRobot23.png */; };
+		D4A1EADE1AEC6AA700C09E4D /* RunningRobot24.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABB1AEC6AA700C09E4D /* RunningRobot24.png */; };
+		D4A1EADF1AEC6AA700C09E4D /* RunningRobot25.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABC1AEC6AA700C09E4D /* RunningRobot25.png */; };
+		D4A1EAE01AEC6AA700C09E4D /* RunningRobot26.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABD1AEC6AA700C09E4D /* RunningRobot26.png */; };
+		D4A1EAE11AEC6AA700C09E4D /* RunningRobot27.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABE1AEC6AA700C09E4D /* RunningRobot27.png */; };
+		D4A1EAE21AEC6AA700C09E4D /* RunningRobot28.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EABF1AEC6AA700C09E4D /* RunningRobot28.png */; };
+		D4A1EAE31AEC6AA700C09E4D /* RunningRobot29.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC01AEC6AA700C09E4D /* RunningRobot29.png */; };
+		D4A1EAE41AEC6AA700C09E4D /* RunningRobot30.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC11AEC6AA700C09E4D /* RunningRobot30.png */; };
+		D4A1EAE51AEC6AA700C09E4D /* RunningRobot31.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC21AEC6AA700C09E4D /* RunningRobot31.png */; };
+		D4A1EAE61AEC6AA700C09E4D /* RunningRobot32.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC31AEC6AA700C09E4D /* RunningRobot32.png */; };
+		D4A1EAE71AEC6AA700C09E4D /* RunningRobot33.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC41AEC6AA700C09E4D /* RunningRobot33.png */; };
+		D4A1EAE81AEC6AA700C09E4D /* RunningRobot34.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC51AEC6AA700C09E4D /* RunningRobot34.png */; };
+		D4A1EAE91AEC6AA700C09E4D /* RunningRobot35.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A1EAC61AEC6AA700C09E4D /* RunningRobot35.png */; };
+		D4A1EAEC1AEC7A6C00C09E4D /* BTLEDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1EAEA1AEC7A6C00C09E4D /* BTLEDiscoveryService.swift */; };
+		D4A1EAED1AEC7A6C00C09E4D /* BTLEPeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1EAEB1AEC7A6C00C09E4D /* BTLEPeripheralService.swift */; };
+		D4A1EAF51AEC849A00C09E4D /* PeripheralDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1EAF41AEC849A00C09E4D /* PeripheralDevice.swift */; };
+		D4ED4F6E1AEAB00B00008102 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F631AEAB00B00008102 /* Date.swift */; };
+		D4ED4F6F1AEAB00B00008102 /* MachineLightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F641AEAB00B00008102 /* MachineLightTableViewCell.swift */; };
+		D4ED4F701AEAB00B00008102 /* MachinePowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F651AEAB00B00008102 /* MachinePowerTableViewCell.swift */; };
+		D4ED4F711AEAB00B00008102 /* MachineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F661AEAB00B00008102 /* MachineTableViewController.swift */; };
+		D4ED4F721AEAB00B00008102 /* MachineTempTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F671AEAB00B00008102 /* MachineTempTableViewCell.swift */; };
+		D4ED4F731AEAB00B00008102 /* MachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F681AEAB00B00008102 /* MachineViewController.swift */; };
+		D4ED4F741AEAB00B00008102 /* MonitorDevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F691AEAB00B00008102 /* MonitorDevicesTableViewController.swift */; };
+		D4ED4F761AEAB00B00008102 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED4F6B1AEAB00B00008102 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D499DF9B1BBA4BF2003D4433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F92B01AEAAECD006DB4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4374AAB1AEC2BE4004095BF;
+			remoteInfo = "Robot Runner WatchKit Extension";
+		};
+		D499DF9E1BBA4BF2003D4433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F92B01AEAAECD006DB4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4374ABA1AEC2BE4004095BF;
+			remoteInfo = "Robot Runner WatchKit App";
+		};
+		D499DFA51BBA4EF1003D4433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F92B01AEAAECD006DB4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4027AB91AEC5A640033165E;
+			remoteInfo = RobotRunnerKit;
+		};
+		D4A1EA841AEC674E00C09E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F92B01AEAAECD006DB4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4027AB91AEC5A640033165E;
+			remoteInfo = RobotRunnerKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D499DFA11BBA4BF2003D4433 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D499DF9D1BBA4BF2003D4433 /* Robot Runner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D499DFA21BBA4BF2003D4433 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D499DFA01BBA4BF2003D4433 /* Robot Runner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D499DFA71BBA4EF1003D4433 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D499DFA41BBA4EF0003D4433 /* RobotRunnerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A1EA861AEC674F00C09E4D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4A1EA831AEC674E00C09E4D /* RobotRunnerKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4027AB31AEC55C20033165E /* Robot Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Robot Runner.entitlements"; sourceTree = "<group>"; };
+		D4027AB41AEC56B40033165E /* Robot Runner WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Robot Runner WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RobotRunnerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4027ABD1AEC5A640033165E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4027ABE1AEC5A640033165E /* RobotRunnerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RobotRunnerKit.h; sourceTree = "<group>"; };
+		D4027AD31AEC5AE90033165E /* RobotStatusStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotStatusStore.swift; sourceTree = "<group>"; };
+		D4374AAC1AEC2BE4004095BF /* Robot Runner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Robot Runner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4374AAF1AEC2BE4004095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4374AB01AEC2BE4004095BF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D4374AB11AEC2BE4004095BF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D4374AB31AEC2BE4004095BF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D4374AB51AEC2BE4004095BF /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D4374AB71AEC2BE4004095BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4374ABB1AEC2BE4004095BF /* Robot Runner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Runner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4374AC11AEC2BE4004095BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4374AC31AEC2BE4004095BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D4374AC51AEC2BE4004095BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48F92B81AEAAECD006DB4A9 /* Robot Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48F92BC1AEAAECD006DB4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48F92BD1AEAAECD006DB4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D48F92BF1AEAAECD006DB4A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D48F92C21AEAAECD006DB4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48F92C41AEAAECD006DB4A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D48F92C71AEAAECD006DB4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D4A1EA881AEC6A8000C09E4D /* StoppingRobot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot1.png; path = RobotAnimation/Stopping/StoppingRobot1.png; sourceTree = "<group>"; };
+		D4A1EA891AEC6A8000C09E4D /* StoppingRobot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot2.png; path = RobotAnimation/Stopping/StoppingRobot2.png; sourceTree = "<group>"; };
+		D4A1EA8A1AEC6A8000C09E4D /* StoppingRobot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot3.png; path = RobotAnimation/Stopping/StoppingRobot3.png; sourceTree = "<group>"; };
+		D4A1EA8B1AEC6A8000C09E4D /* StoppingRobot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot4.png; path = RobotAnimation/Stopping/StoppingRobot4.png; sourceTree = "<group>"; };
+		D4A1EA8C1AEC6A8000C09E4D /* StoppingRobot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot5.png; path = RobotAnimation/Stopping/StoppingRobot5.png; sourceTree = "<group>"; };
+		D4A1EA8D1AEC6A8000C09E4D /* StoppingRobot6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot6.png; path = RobotAnimation/Stopping/StoppingRobot6.png; sourceTree = "<group>"; };
+		D4A1EA8E1AEC6A8000C09E4D /* StoppingRobot7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StoppingRobot7.png; path = RobotAnimation/Stopping/StoppingRobot7.png; sourceTree = "<group>"; };
+		D4A1EA961AEC6A9800C09E4D /* StartingRobot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot1.png; path = RobotAnimation/Starting/StartingRobot1.png; sourceTree = "<group>"; };
+		D4A1EA971AEC6A9800C09E4D /* StartingRobot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot2.png; path = RobotAnimation/Starting/StartingRobot2.png; sourceTree = "<group>"; };
+		D4A1EA981AEC6A9800C09E4D /* StartingRobot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot3.png; path = RobotAnimation/Starting/StartingRobot3.png; sourceTree = "<group>"; };
+		D4A1EA991AEC6A9900C09E4D /* StartingRobot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot4.png; path = RobotAnimation/Starting/StartingRobot4.png; sourceTree = "<group>"; };
+		D4A1EA9A1AEC6A9900C09E4D /* StartingRobot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot5.png; path = RobotAnimation/Starting/StartingRobot5.png; sourceTree = "<group>"; };
+		D4A1EA9B1AEC6A9900C09E4D /* StartingRobot6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot6.png; path = RobotAnimation/Starting/StartingRobot6.png; sourceTree = "<group>"; };
+		D4A1EA9C1AEC6A9900C09E4D /* StartingRobot7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartingRobot7.png; path = RobotAnimation/Starting/StartingRobot7.png; sourceTree = "<group>"; };
+		D4A1EAA41AEC6AA700C09E4D /* RunningRobot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot1.png; path = RobotAnimation/Running/RunningRobot1.png; sourceTree = "<group>"; };
+		D4A1EAA51AEC6AA700C09E4D /* RunningRobot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot2.png; path = RobotAnimation/Running/RunningRobot2.png; sourceTree = "<group>"; };
+		D4A1EAA61AEC6AA700C09E4D /* RunningRobot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot3.png; path = RobotAnimation/Running/RunningRobot3.png; sourceTree = "<group>"; };
+		D4A1EAA71AEC6AA700C09E4D /* RunningRobot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot4.png; path = RobotAnimation/Running/RunningRobot4.png; sourceTree = "<group>"; };
+		D4A1EAA81AEC6AA700C09E4D /* RunningRobot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot5.png; path = RobotAnimation/Running/RunningRobot5.png; sourceTree = "<group>"; };
+		D4A1EAA91AEC6AA700C09E4D /* RunningRobot6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot6.png; path = RobotAnimation/Running/RunningRobot6.png; sourceTree = "<group>"; };
+		D4A1EAAA1AEC6AA700C09E4D /* RunningRobot7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot7.png; path = RobotAnimation/Running/RunningRobot7.png; sourceTree = "<group>"; };
+		D4A1EAAB1AEC6AA700C09E4D /* RunningRobot8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot8.png; path = RobotAnimation/Running/RunningRobot8.png; sourceTree = "<group>"; };
+		D4A1EAAC1AEC6AA700C09E4D /* RunningRobot9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot9.png; path = RobotAnimation/Running/RunningRobot9.png; sourceTree = "<group>"; };
+		D4A1EAAD1AEC6AA700C09E4D /* RunningRobot10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot10.png; path = RobotAnimation/Running/RunningRobot10.png; sourceTree = "<group>"; };
+		D4A1EAAE1AEC6AA700C09E4D /* RunningRobot11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot11.png; path = RobotAnimation/Running/RunningRobot11.png; sourceTree = "<group>"; };
+		D4A1EAAF1AEC6AA700C09E4D /* RunningRobot12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot12.png; path = RobotAnimation/Running/RunningRobot12.png; sourceTree = "<group>"; };
+		D4A1EAB01AEC6AA700C09E4D /* RunningRobot13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot13.png; path = RobotAnimation/Running/RunningRobot13.png; sourceTree = "<group>"; };
+		D4A1EAB11AEC6AA700C09E4D /* RunningRobot14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot14.png; path = RobotAnimation/Running/RunningRobot14.png; sourceTree = "<group>"; };
+		D4A1EAB21AEC6AA700C09E4D /* RunningRobot15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot15.png; path = RobotAnimation/Running/RunningRobot15.png; sourceTree = "<group>"; };
+		D4A1EAB31AEC6AA700C09E4D /* RunningRobot16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot16.png; path = RobotAnimation/Running/RunningRobot16.png; sourceTree = "<group>"; };
+		D4A1EAB41AEC6AA700C09E4D /* RunningRobot17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot17.png; path = RobotAnimation/Running/RunningRobot17.png; sourceTree = "<group>"; };
+		D4A1EAB51AEC6AA700C09E4D /* RunningRobot18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot18.png; path = RobotAnimation/Running/RunningRobot18.png; sourceTree = "<group>"; };
+		D4A1EAB61AEC6AA700C09E4D /* RunningRobot19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot19.png; path = RobotAnimation/Running/RunningRobot19.png; sourceTree = "<group>"; };
+		D4A1EAB71AEC6AA700C09E4D /* RunningRobot20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot20.png; path = RobotAnimation/Running/RunningRobot20.png; sourceTree = "<group>"; };
+		D4A1EAB81AEC6AA700C09E4D /* RunningRobot21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot21.png; path = RobotAnimation/Running/RunningRobot21.png; sourceTree = "<group>"; };
+		D4A1EAB91AEC6AA700C09E4D /* RunningRobot22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot22.png; path = RobotAnimation/Running/RunningRobot22.png; sourceTree = "<group>"; };
+		D4A1EABA1AEC6AA700C09E4D /* RunningRobot23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot23.png; path = RobotAnimation/Running/RunningRobot23.png; sourceTree = "<group>"; };
+		D4A1EABB1AEC6AA700C09E4D /* RunningRobot24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot24.png; path = RobotAnimation/Running/RunningRobot24.png; sourceTree = "<group>"; };
+		D4A1EABC1AEC6AA700C09E4D /* RunningRobot25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot25.png; path = RobotAnimation/Running/RunningRobot25.png; sourceTree = "<group>"; };
+		D4A1EABD1AEC6AA700C09E4D /* RunningRobot26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot26.png; path = RobotAnimation/Running/RunningRobot26.png; sourceTree = "<group>"; };
+		D4A1EABE1AEC6AA700C09E4D /* RunningRobot27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot27.png; path = RobotAnimation/Running/RunningRobot27.png; sourceTree = "<group>"; };
+		D4A1EABF1AEC6AA700C09E4D /* RunningRobot28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot28.png; path = RobotAnimation/Running/RunningRobot28.png; sourceTree = "<group>"; };
+		D4A1EAC01AEC6AA700C09E4D /* RunningRobot29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot29.png; path = RobotAnimation/Running/RunningRobot29.png; sourceTree = "<group>"; };
+		D4A1EAC11AEC6AA700C09E4D /* RunningRobot30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot30.png; path = RobotAnimation/Running/RunningRobot30.png; sourceTree = "<group>"; };
+		D4A1EAC21AEC6AA700C09E4D /* RunningRobot31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot31.png; path = RobotAnimation/Running/RunningRobot31.png; sourceTree = "<group>"; };
+		D4A1EAC31AEC6AA700C09E4D /* RunningRobot32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot32.png; path = RobotAnimation/Running/RunningRobot32.png; sourceTree = "<group>"; };
+		D4A1EAC41AEC6AA700C09E4D /* RunningRobot33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot33.png; path = RobotAnimation/Running/RunningRobot33.png; sourceTree = "<group>"; };
+		D4A1EAC51AEC6AA700C09E4D /* RunningRobot34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot34.png; path = RobotAnimation/Running/RunningRobot34.png; sourceTree = "<group>"; };
+		D4A1EAC61AEC6AA700C09E4D /* RunningRobot35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningRobot35.png; path = RobotAnimation/Running/RunningRobot35.png; sourceTree = "<group>"; };
+		D4A1EAEA1AEC7A6C00C09E4D /* BTLEDiscoveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTLEDiscoveryService.swift; sourceTree = "<group>"; };
+		D4A1EAEB1AEC7A6C00C09E4D /* BTLEPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTLEPeripheralService.swift; sourceTree = "<group>"; };
+		D4A1EAF41AEC849A00C09E4D /* PeripheralDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralDevice.swift; sourceTree = "<group>"; };
+		D4ED4F631AEAB00B00008102 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D4ED4F641AEAB00B00008102 /* MachineLightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineLightTableViewCell.swift; sourceTree = "<group>"; };
+		D4ED4F651AEAB00B00008102 /* MachinePowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachinePowerTableViewCell.swift; sourceTree = "<group>"; };
+		D4ED4F661AEAB00B00008102 /* MachineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineTableViewController.swift; sourceTree = "<group>"; };
+		D4ED4F671AEAB00B00008102 /* MachineTempTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineTempTableViewCell.swift; sourceTree = "<group>"; };
+		D4ED4F681AEAB00B00008102 /* MachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineViewController.swift; sourceTree = "<group>"; };
+		D4ED4F691AEAB00B00008102 /* MonitorDevicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorDevicesTableViewController.swift; sourceTree = "<group>"; };
+		D4ED4F6B1AEAB00B00008102 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4027AB61AEC5A640033165E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4374AA91AEC2BE4004095BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D499DFA31BBA4EF0003D4433 /* RobotRunnerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F92B51AEAAECD006DB4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A1EA811AEC60B200C09E4D /* RobotRunnerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4027ABB1AEC5A640033165E /* RobotRunnerKit */ = {
+			isa = PBXGroup;
+			children = (
+				D4A1EAF41AEC849A00C09E4D /* PeripheralDevice.swift */,
+				D4A1EAEA1AEC7A6C00C09E4D /* BTLEDiscoveryService.swift */,
+				D4A1EAEB1AEC7A6C00C09E4D /* BTLEPeripheralService.swift */,
+				D4027ABE1AEC5A640033165E /* RobotRunnerKit.h */,
+				D4027ABC1AEC5A640033165E /* Supporting Files */,
+				D4027AD31AEC5AE90033165E /* RobotStatusStore.swift */,
+			);
+			path = RobotRunnerKit;
+			sourceTree = "<group>";
+		};
+		D4027ABC1AEC5A640033165E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4027ABD1AEC5A640033165E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4374AAD1AEC2BE4004095BF /* Robot Runner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4027AB41AEC56B40033165E /* Robot Runner WatchKit Extension.entitlements */,
+				D4374AB11AEC2BE4004095BF /* InterfaceController.swift */,
+				D4374AB31AEC2BE4004095BF /* NotificationController.swift */,
+				D4374AB51AEC2BE4004095BF /* GlanceController.swift */,
+				D4374AB71AEC2BE4004095BF /* Images.xcassets */,
+				D4374AAE1AEC2BE4004095BF /* Supporting Files */,
+			);
+			path = "Robot Runner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D4374AAE1AEC2BE4004095BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4374AAF1AEC2BE4004095BF /* Info.plist */,
+				D4374AB01AEC2BE4004095BF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4374ABF1AEC2BE4004095BF /* Robot Runner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D4374AC21AEC2BE4004095BF /* Interface.storyboard */,
+				D4374AC51AEC2BE4004095BF /* Images.xcassets */,
+				D4374AC01AEC2BE4004095BF /* Supporting Files */,
+			);
+			path = "Robot Runner WatchKit App";
+			sourceTree = "<group>";
+		};
+		D4374AC01AEC2BE4004095BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4374AC11AEC2BE4004095BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48F92AF1AEAAECD006DB4A9 = {
+			isa = PBXGroup;
+			children = (
+				D48F92BA1AEAAECD006DB4A9 /* Robot Runner */,
+				D4374AAD1AEC2BE4004095BF /* Robot Runner WatchKit Extension */,
+				D4374ABF1AEC2BE4004095BF /* Robot Runner WatchKit App */,
+				D4027ABB1AEC5A640033165E /* RobotRunnerKit */,
+				D48F92B91AEAAECD006DB4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48F92B91AEAAECD006DB4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48F92B81AEAAECD006DB4A9 /* Robot Runner.app */,
+				D4374AAC1AEC2BE4004095BF /* Robot Runner WatchKit Extension.appex */,
+				D4374ABB1AEC2BE4004095BF /* Robot Runner WatchKit App.app */,
+				D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48F92BA1AEAAECD006DB4A9 /* Robot Runner */ = {
+			isa = PBXGroup;
+			children = (
+				D4A1EA871AEC6A6200C09E4D /* RobotAnimationImages */,
+				D4027AB31AEC55C20033165E /* Robot Runner.entitlements */,
+				D4ED4F631AEAB00B00008102 /* Date.swift */,
+				D4ED4F661AEAB00B00008102 /* MachineTableViewController.swift */,
+				D4ED4F641AEAB00B00008102 /* MachineLightTableViewCell.swift */,
+				D4ED4F651AEAB00B00008102 /* MachinePowerTableViewCell.swift */,
+				D4ED4F671AEAB00B00008102 /* MachineTempTableViewCell.swift */,
+				D4ED4F681AEAB00B00008102 /* MachineViewController.swift */,
+				D4ED4F691AEAB00B00008102 /* MonitorDevicesTableViewController.swift */,
+				D4ED4F6B1AEAB00B00008102 /* Utilities.swift */,
+				D48F92BD1AEAAECD006DB4A9 /* AppDelegate.swift */,
+				D48F92BF1AEAAECD006DB4A9 /* ViewController.swift */,
+				D48F92C11AEAAECD006DB4A9 /* Main.storyboard */,
+				D48F92C41AEAAECD006DB4A9 /* Images.xcassets */,
+				D48F92C61AEAAECD006DB4A9 /* LaunchScreen.xib */,
+				D48F92BB1AEAAECD006DB4A9 /* Supporting Files */,
+			);
+			path = "Robot Runner";
+			sourceTree = "<group>";
+		};
+		D48F92BB1AEAAECD006DB4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48F92BC1AEAAECD006DB4A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4A1EA871AEC6A6200C09E4D /* RobotAnimationImages */ = {
+			isa = PBXGroup;
+			children = (
+				D4A1EAA41AEC6AA700C09E4D /* RunningRobot1.png */,
+				D4A1EAA51AEC6AA700C09E4D /* RunningRobot2.png */,
+				D4A1EAA61AEC6AA700C09E4D /* RunningRobot3.png */,
+				D4A1EAA71AEC6AA700C09E4D /* RunningRobot4.png */,
+				D4A1EAA81AEC6AA700C09E4D /* RunningRobot5.png */,
+				D4A1EAA91AEC6AA700C09E4D /* RunningRobot6.png */,
+				D4A1EAAA1AEC6AA700C09E4D /* RunningRobot7.png */,
+				D4A1EAAB1AEC6AA700C09E4D /* RunningRobot8.png */,
+				D4A1EAAC1AEC6AA700C09E4D /* RunningRobot9.png */,
+				D4A1EAAD1AEC6AA700C09E4D /* RunningRobot10.png */,
+				D4A1EAAE1AEC6AA700C09E4D /* RunningRobot11.png */,
+				D4A1EAAF1AEC6AA700C09E4D /* RunningRobot12.png */,
+				D4A1EAB01AEC6AA700C09E4D /* RunningRobot13.png */,
+				D4A1EAB11AEC6AA700C09E4D /* RunningRobot14.png */,
+				D4A1EAB21AEC6AA700C09E4D /* RunningRobot15.png */,
+				D4A1EAB31AEC6AA700C09E4D /* RunningRobot16.png */,
+				D4A1EAB41AEC6AA700C09E4D /* RunningRobot17.png */,
+				D4A1EAB51AEC6AA700C09E4D /* RunningRobot18.png */,
+				D4A1EAB61AEC6AA700C09E4D /* RunningRobot19.png */,
+				D4A1EAB71AEC6AA700C09E4D /* RunningRobot20.png */,
+				D4A1EAB81AEC6AA700C09E4D /* RunningRobot21.png */,
+				D4A1EAB91AEC6AA700C09E4D /* RunningRobot22.png */,
+				D4A1EABA1AEC6AA700C09E4D /* RunningRobot23.png */,
+				D4A1EABB1AEC6AA700C09E4D /* RunningRobot24.png */,
+				D4A1EABC1AEC6AA700C09E4D /* RunningRobot25.png */,
+				D4A1EABD1AEC6AA700C09E4D /* RunningRobot26.png */,
+				D4A1EABE1AEC6AA700C09E4D /* RunningRobot27.png */,
+				D4A1EABF1AEC6AA700C09E4D /* RunningRobot28.png */,
+				D4A1EAC01AEC6AA700C09E4D /* RunningRobot29.png */,
+				D4A1EAC11AEC6AA700C09E4D /* RunningRobot30.png */,
+				D4A1EAC21AEC6AA700C09E4D /* RunningRobot31.png */,
+				D4A1EAC31AEC6AA700C09E4D /* RunningRobot32.png */,
+				D4A1EAC41AEC6AA700C09E4D /* RunningRobot33.png */,
+				D4A1EAC51AEC6AA700C09E4D /* RunningRobot34.png */,
+				D4A1EAC61AEC6AA700C09E4D /* RunningRobot35.png */,
+				D4A1EA961AEC6A9800C09E4D /* StartingRobot1.png */,
+				D4A1EA971AEC6A9800C09E4D /* StartingRobot2.png */,
+				D4A1EA981AEC6A9800C09E4D /* StartingRobot3.png */,
+				D4A1EA991AEC6A9900C09E4D /* StartingRobot4.png */,
+				D4A1EA9A1AEC6A9900C09E4D /* StartingRobot5.png */,
+				D4A1EA9B1AEC6A9900C09E4D /* StartingRobot6.png */,
+				D4A1EA9C1AEC6A9900C09E4D /* StartingRobot7.png */,
+				D4A1EA881AEC6A8000C09E4D /* StoppingRobot1.png */,
+				D4A1EA891AEC6A8000C09E4D /* StoppingRobot2.png */,
+				D4A1EA8A1AEC6A8000C09E4D /* StoppingRobot3.png */,
+				D4A1EA8B1AEC6A8000C09E4D /* StoppingRobot4.png */,
+				D4A1EA8C1AEC6A8000C09E4D /* StoppingRobot5.png */,
+				D4A1EA8D1AEC6A8000C09E4D /* StoppingRobot6.png */,
+				D4A1EA8E1AEC6A8000C09E4D /* StoppingRobot7.png */,
+			);
+			name = RobotAnimationImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4027AB71AEC5A640033165E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4027ABF1AEC5A640033165E /* RobotRunnerKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4027AB91AEC5A640033165E /* RobotRunnerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4027ACD1AEC5A650033165E /* Build configuration list for PBXNativeTarget "RobotRunnerKit" */;
+			buildPhases = (
+				D4027AB51AEC5A640033165E /* Sources */,
+				D4027AB61AEC5A640033165E /* Frameworks */,
+				D4027AB71AEC5A640033165E /* Headers */,
+				D4027AB81AEC5A640033165E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotRunnerKit;
+			productName = RobotRunnerKit;
+			productReference = D4027ABA1AEC5A640033165E /* RobotRunnerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4374AAB1AEC2BE4004095BF /* Robot Runner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4374ACF1AEC2BE4004095BF /* Build configuration list for PBXNativeTarget "Robot Runner WatchKit Extension" */;
+			buildPhases = (
+				D4374AA81AEC2BE4004095BF /* Sources */,
+				D4374AA91AEC2BE4004095BF /* Frameworks */,
+				D4374AAA1AEC2BE4004095BF /* Resources */,
+				D499DFA71BBA4EF1003D4433 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D499DFA61BBA4EF1003D4433 /* PBXTargetDependency */,
+			);
+			name = "Robot Runner WatchKit Extension";
+			productName = "Robot Runner WatchKit Extension";
+			productReference = D4374AAC1AEC2BE4004095BF /* Robot Runner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D4374ABA1AEC2BE4004095BF /* Robot Runner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4374ACE1AEC2BE4004095BF /* Build configuration list for PBXNativeTarget "Robot Runner WatchKit App" */;
+			buildPhases = (
+				D4374AB91AEC2BE4004095BF /* Resources */,
+				D499DFA11BBA4BF2003D4433 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D499DF9C1BBA4BF2003D4433 /* PBXTargetDependency */,
+			);
+			name = "Robot Runner WatchKit App";
+			productName = "Robot Runner WatchKit App";
+			productReference = D4374ABB1AEC2BE4004095BF /* Robot Runner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D48F92B71AEAAECD006DB4A9 /* Robot Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48F92D71AEAAECD006DB4A9 /* Build configuration list for PBXNativeTarget "Robot Runner" */;
+			buildPhases = (
+				D48F92B41AEAAECD006DB4A9 /* Sources */,
+				D48F92B51AEAAECD006DB4A9 /* Frameworks */,
+				D48F92B61AEAAECD006DB4A9 /* Resources */,
+				D4A1EA861AEC674F00C09E4D /* Embed Frameworks */,
+				D499DFA21BBA4BF2003D4433 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A1EA851AEC674E00C09E4D /* PBXTargetDependency */,
+				D499DF9F1BBA4BF2003D4433 /* PBXTargetDependency */,
+			);
+			name = "Robot Runner";
+			productName = "Robot Runner";
+			productReference = D48F92B81AEAAECD006DB4A9 /* Robot Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48F92B01AEAAECD006DB4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mobile Toolworks LLC";
+				TargetAttributes = {
+					D4027AB91AEC5A640033165E = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4R6ZY9U5BR;
+					};
+					D4374AAB1AEC2BE4004095BF = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4R6ZY9U5BR;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D4374ABA1AEC2BE4004095BF = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4R6ZY9U5BR;
+					};
+					D48F92B71AEAAECD006DB4A9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4R6ZY9U5BR;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D48F92B31AEAAECD006DB4A9 /* Build configuration list for PBXProject "Robot Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48F92AF1AEAAECD006DB4A9;
+			productRefGroup = D48F92B91AEAAECD006DB4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48F92B71AEAAECD006DB4A9 /* Robot Runner */,
+				D4374AAB1AEC2BE4004095BF /* Robot Runner WatchKit Extension */,
+				D4374ABA1AEC2BE4004095BF /* Robot Runner WatchKit App */,
+				D4027AB91AEC5A640033165E /* RobotRunnerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4027AB81AEC5A640033165E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4374AAA1AEC2BE4004095BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4374AB81AEC2BE4004095BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4374AB91AEC2BE4004095BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4374AC41AEC2BE4004095BF /* Interface.storyboard in Resources */,
+				D4374AC61AEC2BE4004095BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F92B61AEAAECD006DB4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A1EAE51AEC6AA700C09E4D /* RunningRobot31.png in Resources */,
+				D4A1EAD71AEC6AA700C09E4D /* RunningRobot17.png in Resources */,
+				D4A1EAE61AEC6AA700C09E4D /* RunningRobot32.png in Resources */,
+				D4A1EADF1AEC6AA700C09E4D /* RunningRobot25.png in Resources */,
+				D4A1EACF1AEC6AA700C09E4D /* RunningRobot9.png in Resources */,
+				D4A1EACB1AEC6AA700C09E4D /* RunningRobot5.png in Resources */,
+				D4A1EADE1AEC6AA700C09E4D /* RunningRobot24.png in Resources */,
+				D4A1EA8F1AEC6A8000C09E4D /* StoppingRobot1.png in Resources */,
+				D4A1EAE71AEC6AA700C09E4D /* RunningRobot33.png in Resources */,
+				D48F92C31AEAAECD006DB4A9 /* Main.storyboard in Resources */,
+				D4A1EAE31AEC6AA700C09E4D /* RunningRobot29.png in Resources */,
+				D4A1EAA11AEC6A9900C09E4D /* StartingRobot5.png in Resources */,
+				D4A1EAE91AEC6AA700C09E4D /* RunningRobot35.png in Resources */,
+				D4A1EAE81AEC6AA700C09E4D /* RunningRobot34.png in Resources */,
+				D4A1EACE1AEC6AA700C09E4D /* RunningRobot8.png in Resources */,
+				D4A1EA951AEC6A8000C09E4D /* StoppingRobot7.png in Resources */,
+				D4A1EA9D1AEC6A9900C09E4D /* StartingRobot1.png in Resources */,
+				D4A1EAD31AEC6AA700C09E4D /* RunningRobot13.png in Resources */,
+				D4A1EAD01AEC6AA700C09E4D /* RunningRobot10.png in Resources */,
+				D4A1EAE21AEC6AA700C09E4D /* RunningRobot28.png in Resources */,
+				D4A1EAA31AEC6A9900C09E4D /* StartingRobot7.png in Resources */,
+				D4A1EA941AEC6A8000C09E4D /* StoppingRobot6.png in Resources */,
+				D4A1EACA1AEC6AA700C09E4D /* RunningRobot4.png in Resources */,
+				D4A1EAA01AEC6A9900C09E4D /* StartingRobot4.png in Resources */,
+				D4A1EADA1AEC6AA700C09E4D /* RunningRobot20.png in Resources */,
+				D4A1EAD61AEC6AA700C09E4D /* RunningRobot16.png in Resources */,
+				D4A1EACD1AEC6AA700C09E4D /* RunningRobot7.png in Resources */,
+				D4A1EAD11AEC6AA700C09E4D /* RunningRobot11.png in Resources */,
+				D4A1EA9E1AEC6A9900C09E4D /* StartingRobot2.png in Resources */,
+				D4A1EAE41AEC6AA700C09E4D /* RunningRobot30.png in Resources */,
+				D4A1EA911AEC6A8000C09E4D /* StoppingRobot3.png in Resources */,
+				D4A1EAD51AEC6AA700C09E4D /* RunningRobot15.png in Resources */,
+				D4A1EAC71AEC6AA700C09E4D /* RunningRobot1.png in Resources */,
+				D4A1EADB1AEC6AA700C09E4D /* RunningRobot21.png in Resources */,
+				D4A1EA901AEC6A8000C09E4D /* StoppingRobot2.png in Resources */,
+				D4A1EADC1AEC6AA700C09E4D /* RunningRobot22.png in Resources */,
+				D4A1EACC1AEC6AA700C09E4D /* RunningRobot6.png in Resources */,
+				D4A1EAD41AEC6AA700C09E4D /* RunningRobot14.png in Resources */,
+				D4A1EA931AEC6A8000C09E4D /* StoppingRobot5.png in Resources */,
+				D4A1EAD91AEC6AA700C09E4D /* RunningRobot19.png in Resources */,
+				D48F92C81AEAAECD006DB4A9 /* LaunchScreen.xib in Resources */,
+				D4A1EAC91AEC6AA700C09E4D /* RunningRobot3.png in Resources */,
+				D4A1EAE01AEC6AA700C09E4D /* RunningRobot26.png in Resources */,
+				D4A1EAD81AEC6AA700C09E4D /* RunningRobot18.png in Resources */,
+				D4A1EADD1AEC6AA700C09E4D /* RunningRobot23.png in Resources */,
+				D4A1EAD21AEC6AA700C09E4D /* RunningRobot12.png in Resources */,
+				D4A1EA921AEC6A8000C09E4D /* StoppingRobot4.png in Resources */,
+				D4A1EAA21AEC6A9900C09E4D /* StartingRobot6.png in Resources */,
+				D4A1EA9F1AEC6A9900C09E4D /* StartingRobot3.png in Resources */,
+				D4A1EAE11AEC6AA700C09E4D /* RunningRobot27.png in Resources */,
+				D4A1EAC81AEC6AA700C09E4D /* RunningRobot2.png in Resources */,
+				D48F92C51AEAAECD006DB4A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4027AB51AEC5A640033165E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4027AD41AEC5AE90033165E /* RobotStatusStore.swift in Sources */,
+				D4A1EAF51AEC849A00C09E4D /* PeripheralDevice.swift in Sources */,
+				D4A1EAED1AEC7A6C00C09E4D /* BTLEPeripheralService.swift in Sources */,
+				D4A1EAEC1AEC7A6C00C09E4D /* BTLEDiscoveryService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4374AA81AEC2BE4004095BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4374AB41AEC2BE4004095BF /* NotificationController.swift in Sources */,
+				D4374AB21AEC2BE4004095BF /* InterfaceController.swift in Sources */,
+				D4374AB61AEC2BE4004095BF /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F92B41AEAAECD006DB4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED4F741AEAB00B00008102 /* MonitorDevicesTableViewController.swift in Sources */,
+				D4ED4F6F1AEAB00B00008102 /* MachineLightTableViewCell.swift in Sources */,
+				D48F92C01AEAAECD006DB4A9 /* ViewController.swift in Sources */,
+				D4ED4F6E1AEAB00B00008102 /* Date.swift in Sources */,
+				D4ED4F761AEAB00B00008102 /* Utilities.swift in Sources */,
+				D4ED4F731AEAB00B00008102 /* MachineViewController.swift in Sources */,
+				D4ED4F721AEAB00B00008102 /* MachineTempTableViewCell.swift in Sources */,
+				D48F92BE1AEAAECD006DB4A9 /* AppDelegate.swift in Sources */,
+				D4ED4F711AEAB00B00008102 /* MachineTableViewController.swift in Sources */,
+				D4ED4F701AEAB00B00008102 /* MachinePowerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D499DF9C1BBA4BF2003D4433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4374AAB1AEC2BE4004095BF /* Robot Runner WatchKit Extension */;
+			targetProxy = D499DF9B1BBA4BF2003D4433 /* PBXContainerItemProxy */;
+		};
+		D499DF9F1BBA4BF2003D4433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4374ABA1AEC2BE4004095BF /* Robot Runner WatchKit App */;
+			targetProxy = D499DF9E1BBA4BF2003D4433 /* PBXContainerItemProxy */;
+		};
+		D499DFA61BBA4EF1003D4433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4027AB91AEC5A640033165E /* RobotRunnerKit */;
+			targetProxy = D499DFA51BBA4EF1003D4433 /* PBXContainerItemProxy */;
+		};
+		D4A1EA851AEC674E00C09E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4027AB91AEC5A640033165E /* RobotRunnerKit */;
+			targetProxy = D4A1EA841AEC674E00C09E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4374AC21AEC2BE4004095BF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4374AC31AEC2BE4004095BF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D48F92C11AEAAECD006DB4A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48F92C21AEAAECD006DB4A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48F92C61AEAAECD006DB4A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48F92C71AEAAECD006DB4A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4027ACE1AEC5A650033165E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RobotRunnerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4027ACF1AEC5A650033165E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RobotRunnerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4374ACA1AEC2BE4004095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Robot Runner WatchKit Extension/Robot Runner WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Robot Runner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.Robot-Runner.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D4374ACB1AEC2BE4004095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Robot Runner WatchKit Extension/Robot Runner WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Robot Runner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.Robot-Runner.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D4374ACC1AEC2BE4004095BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Robot_Runner_WatchKit_Extension;
+				INFOPLIST_FILE = "Robot Runner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.Robot-Runner.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D4374ACD1AEC2BE4004095BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Robot_Runner_WatchKit_Extension;
+				INFOPLIST_FILE = "Robot Runner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.Robot-Runner.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D48F92D51AEAAECD006DB4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48F92D61AEAAECD006DB4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48F92D81AEAAECD006DB4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Robot Runner/Robot Runner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Robot Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Debug;
+		};
+		D48F92D91AEAAECD006DB4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Robot Runner/Robot Runner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Robot Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobiletoolworks.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4027ACD1AEC5A650033165E /* Build configuration list for PBXNativeTarget "RobotRunnerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4027ACE1AEC5A650033165E /* Debug */,
+				D4027ACF1AEC5A650033165E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4374ACE1AEC2BE4004095BF /* Build configuration list for PBXNativeTarget "Robot Runner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4374ACC1AEC2BE4004095BF /* Debug */,
+				D4374ACD1AEC2BE4004095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4374ACF1AEC2BE4004095BF /* Build configuration list for PBXNativeTarget "Robot Runner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4374ACA1AEC2BE4004095BF /* Debug */,
+				D4374ACB1AEC2BE4004095BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48F92B31AEAAECD006DB4A9 /* Build configuration list for PBXProject "Robot Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F92D51AEAAECD006DB4A9 /* Debug */,
+				D48F92D61AEAAECD006DB4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48F92D71AEAAECD006DB4A9 /* Build configuration list for PBXNativeTarget "Robot Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F92D81AEAAECD006DB4A9 /* Debug */,
+				D48F92D91AEAAECD006DB4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48F92B01AEAAECD006DB4A9 /* Project object */;
+}
