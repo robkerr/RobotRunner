@@ -12,7 +12,7 @@
 
 <p>For the Watch project, the objective is to add a to the existing app the ability for the user to connect to the Robot using the Watch instead of the iPhone.  This is a typical use case for the Apple Watch -- giving the user the ability to use the core functions of the app from the watch.  The final architecture will be as follows:</p>
 
-<p><img src="/content/images/2015/07/Robot-Runner-iPhone-and-Watch.jpg" alt="" /></p>
+<p><img src="images/Robot-Runner-iPhone-and-Watch.jpg" alt="" /></p>
 
 <p>Currently, all 3rd-party apple Watch apps are built as extensions to iPhone apps. In the diagram above, it's not (yet) possible to eliminate the iPhone entirely, but it is possible to leave the phone in standby (in a pocket or purse, or in the next room) and let the watch wearer still use the app functions.</p>
 
@@ -22,7 +22,7 @@
 
 <p>A significant part of Robot Runner is the code to scan for the Bluetooth devices, connect to them, and once connected send commands and read sensor values.  In the current iPhone app (Robot Runner.app, in purple within the below diagram), all of the code used by the iPhone app is contained within the single iPhone app target.</p>
 
-<p><img src="/content/images/2015/07/Robot-Runner-Software-Architecture.jpg" alt="" /></p>
+<p><img src="images/Robot-Runner-Software-Architecture.jpg" alt="" /></p>
 
 <p>The Watch app (Robot Runner WatchKit.app, in blue), won't connect directly to the Arduino module's Bluetooth interface, but will do so via the Robot Runner WatchKit Extension.app (green), which runs on the iPhone. So far so good. But there's a wrinkle that requires some re-architecting.</p>
 
@@ -42,7 +42,7 @@
 
 <p>Here's a side-by-side (or over/under if you're on a phone device) comparison of the UI for the iPhone and Apple Watch versions of Robot Runner.  Note that in moving from the 4.7" iPhone screen to the 38mm-42mm watch screen there has been no loss of functionality.</p>
 
-<p><img src="https://github.com/robkerr/RobotRunner/blob/master/images/Robot-Runner-iPhone.jpg" alt="" />
-<img src="/content/images/2015/07/RobotRunnerAppleWatch.jpg" alt="" /></p>
+<p><img src="images/Robot-Runner-iPhone.jpg" alt="" />
+<img src="images/RobotRunnerAppleWatch.jpg" alt="" /></p>
 
 <p>All of the same information is displayed. The command button and sensor outputs are still on the same screen together.  Even the animated Robot renders exactly the same using the same frame images (he runs when the robot is in a run state, and is stopped when the robot is in a stopped state).</p>
