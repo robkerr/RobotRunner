@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5E09F993282210FDEDBA8DB1468E0A01610D98D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD5402D263BC6B70AE244549758A196EC21C6BFB" : 0,
+    "B5E09F993282210FDEDBA8DB1468E0A01610D98D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F2D45714-32FC-41F6-A24C-9D9B8AB3CD62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD5402D263BC6B70AE244549758A196EC21C6BFB" : "Robot%20Runner",
+    "B5E09F993282210FDEDBA8DB1468E0A01610D98D" : "RobotRunner\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Robot Runner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Robot Runner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mobiletoolworks\/robot-runner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD5402D263BC6B70AE244549758A196EC21C6BFB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:robkerr\/RobotRunner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5E09F993282210FDEDBA8DB1468E0A01610D98D"
+    }
+  ]
+}
